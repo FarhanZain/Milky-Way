@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url(planet/background.png);
+    background-repeat: repeat-y;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+#detail {
+    overflow: hidden;
+}
+
+#img-detail {
+    animation: rotate 110s linear 0s infinite normal;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
